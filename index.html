@@ -38,6 +38,20 @@
         border-spacing: 0;
         color: #4a4a4a;
       }
+
+      .two-columns {
+        text-align: center;
+        font-size: 0;
+        padding: 40px 0;
+      }
+
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+      }
+
+   
     </style>
   </head>
 
@@ -51,24 +65,101 @@
         </tr>
 
         <!-- LOGO SECTION -->
-<tr>
-  <td>
-    <table width="100%">
-      <tr>
-        <td>
 
-          <a href="#"><img src="img/apparel.png" alt=""></a>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="text-align: center; padding: 15px">
+                  <a href="#"
+                    ><img
+                      src="img/apparel.png"
+                      alt="Apparel logo"
+                      width="180"
+                      title="Apparel"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
         <!-- BANNER IMAGE -->
+
+        <tr>
+          <td>
+            <a target="_blank" href="#"
+              ><img
+                width="600"
+                style="max-width: 100%"
+                src="img/banner.jpg"
+                alt=""
+            /></a>
+          </td>
+        </tr>
 
         <!-- BACKGROUND COLOR TEXT -->
 
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td
+                  style="
+                    text-align: center;
+                    font-size: 25px;
+                    background-color: #b8714e;
+                    color: #fff;
+                  "
+                >
+                  <p style="text-transform: uppercase">Shop our latest deals</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
         <!-- TWO COLUMN SECTION -->
+
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td>
+                        <a href="#"
+                          ><img
+                            src="img/women.jpg"
+                            alt=""
+                            width="300"
+                            style="max-width: 300px; padding-bottom: 40px"
+                        /></a>
+                        <a href="#" class="button">Shop Womens</a>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td>
+                        <a href="#"
+                          ><img
+                            src="img/men.jpg"
+                            alt=""
+                            width="300"
+                            style="max-width: 300px; padding-bottom: 40px"
+                        /></a>
+                        <a href="#" class="button">Shop Mens</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
         <!-- FOOTER SECTION -->
 
